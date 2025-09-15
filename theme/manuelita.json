@@ -1,1 +1,50 @@
+{
+  "name": "Manuelita TechStore",
+  "dataColors": ["#1E8E3E", "#66BB6A", "#F4A300", "#333333", "#8D8D8D", "#BDBDBD"],
+  "background": "#FFFFFF",
+  "foreground": "#333333",
+  "tableAccent": "#1E8E3E",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#333333" } },
+            "fontSize": 14,
+            "alignment": "Left"
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#333333" } },
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#333333" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "categoryLabels": [{ "color": { "solid": { "color": "#333333" } } }],
+        "dataLabels": [{ "color": { "solid": { "color": "#1E8E3E" } }, "fontSize": 18 }]
+      }
+    }
+  }
+}
 
