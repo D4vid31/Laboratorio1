@@ -1,0 +1,17 @@
+# SO (archivos de sistema)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editores
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+~$*
+*.log
+
+# Tableau (extractos pesados que no necesitas subir)
+*.hyper
+*.tde
