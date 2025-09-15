@@ -1,0 +1,12 @@
+<workbook>
+  <preferences>
+    <color-palette name="Manuelita TechStore" type="regular">
+      <color>#1E8E3E</color>  <!-- Verde principal -->
+      <color>#66BB6A</color>  <!-- Verde claro -->
+      <color>#F4A300</color>  <!-- Ámbar/dorado -->
+      <color>#333333</color>  <!-- Gris texto -->
+      <color>#8D8D8D</color>  <!-- Gris medio -->
+      <color>#BDBDBD</color>  <!-- Gris claro -->
+    </color-palette>
+  </preferences>
+</workbook>
