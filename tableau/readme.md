@@ -51,5 +51,45 @@ Análisis de ventas de **TechStore** desarrollado en Tableau. El objetivo es med
 **Ventas Netas**
 [Cantidad] * [Precio Unitario] * (1 - [Descuento])
 
-```tableau
-[Cantidad] * [Precio Unitario] * (1 - [Descuento])
+**Costo Total** 
+[Cantidad] * [Precio Costo]
+
+**Margen $**
+SUM([Ventas Netas]) - SUM([Costo Total])
+
+**Margen %**
+(
+  SUM([Ventas Netas]) - SUM([Costo Total])
+)
+/ NULLIF( SUM([Ventas Netas]), 0 )
+
+**Meta Ventas Año**
+IF [Año seleccionado] = 0 OR [Año] = [Año seleccionado]
+THEN [Meta Ventas]
+END
+
+**Cumplimiento %** 
+SUM([Ventas Netas]) / NULLIF( SUM([Meta Ventas Año]), 0 )
+
+**Ventas Netas (0)**
+ZN( SUM([Ventas Netas]) )
+
+
+## KPIS
+
+**KPI – Ventas**
+SUM([Ventas Netas])
+
+**KPI – Cumplimiento %**
+SUM([Ventas Netas]) / NULLIF( SUM([Meta Ventas Año]), 0 )
+
+**KPI – Margen %**
+(
+  SUM([Ventas Netas]) - SUM([Costo Total])
+)
+/ NULLIF( SUM([Ventas Netas]), 0 )
+
+
+
+
+
