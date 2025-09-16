@@ -116,38 +116,13 @@ Este análisis resume cómo resolví el mismo caso de negocio en **Tableau** y e
 
 ---
 
-## 8) ¿Cuándo usar cada uno?
-
-**Elegir Tableau si…**
-
-* Necesito **iterar visualmente** muy rápido y experimentar con vistas.
-* Quiero aprovechar **Measure Names/Values** y **acciones** con poco DAX/SQL.
-* La organización ya opera con Tableau Server/Cloud.
-
-**Elegir Power BI si…**
-
-* Requiero **modelos semánticos** con muchas medidas y lógica de negocio en **DAX**.
-* Necesito **slicers** y **cross-highlighting** extensivos, y un **tema corporativo** uniforme.
-* Ya uso **Power BI Service** / M365 para compartir y gobernar.
-
----
-
-## 9) Principales aprendizajes del lab
+## 8) Principales aprendizajes del lab
 
 1. Las **diferencias de cifras** casi siempre se explican por **filtros/fechas distintos**. Alinear ventanas de tiempo es clave.
 2. En Power BI, la **tabla Calendario** simplifica metas por mes, acumulados y comparativos.
 3. **DAX** exige pensar en **filtrado de contexto** y **agregaciones** (SUMX, DIVIDE, SWITCH).
 4. Los **temas** (JSON) en Power BI ayudan a estandarizar la **marca** (como el esquema Manuelita).
 5. Ambos entregan el tablero solicitado; la **elección** depende del stack, gobierno y complejidad del modelo.
-
----
-
-## 10) Siguientes pasos
-
-* Alinear 100% los **rangos de fecha** y documentar un **diccionario de medidas** compartido.
-* Añadir **RLS** (Power BI) / permisos por proyecto (Tableau) si se requiere seguridad por usuario.
-* Publicar los artefactos en los servicios correspondientes con **actualización programada** de datos.
-* Extender el análisis con **tendencias YTD**, **% sobre meta** y **desviaciones** por vendedor/categoría.
 
 ---
 
