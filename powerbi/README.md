@@ -13,7 +13,7 @@ Reporte principal: `Lab 1 Power.pbix`
 |---|---|
 | `Lab 1 Power.pbix` | Reporte de Power BI con modelo, medidas DAX, KPIs y visualizaciones. |
 | `Dashboar Power.png` | Captura del dashboard principal. |
-| `.gitkeep` | Archivo para mantener la carpeta en control de versiones. |
+
 
 ---
 
